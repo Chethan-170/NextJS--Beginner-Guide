@@ -8,7 +8,7 @@ export default function Home() {
         <title>hello</title>
       </Head>
       <h1>hello</h1>
-      <Link href="/about">hello world</Link>
+      <Link href="/about">hello my world</Link>
     </div>
   )
 }

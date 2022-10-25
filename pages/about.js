@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import React from 'react'
+import Link from "next/link"
 import get_me_data from './servis/get_me_data';
 
 export default function About({ data }) {
@@ -8,6 +9,7 @@ export default function About({ data }) {
         <Head>
           <title>about</title>
         </Head>
+            <Link href="/">hello world</Link>
             <h1>about page</h1>
             {data.map(x => <p>{x}</p>)}
             <button onClick={() => {
