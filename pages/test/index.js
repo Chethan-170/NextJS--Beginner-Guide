@@ -5,7 +5,7 @@ import TestContextProvider from "./context";
 const Index = ()=>{
     return <div>
        <TestContextProvider>
-            <h1>Context API Test</h1>
+            <h1>Context API Test1</h1>
             <StudentList />
             <AbsenteesList />
        </TestContextProvider>
